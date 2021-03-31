@@ -21,19 +21,25 @@ apply plugin : 'org.springframework.boot'
 apply plugin : 'io.spring.dependency-management'
 
 group 'com.jy.prac'
-version '1.0-SNAPSHOT'
+version '1.0-SNAPSHOT-'+new Date().format("yyyyMMddHHmm")
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    jcenter()
 }
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
     //lombok
     compile('org.projectlombok:lombok')
     //Spring data jpa
-    compile('org.springframework.boot:spring-boot-starter-data-jpa') //{1}
-    compile('com.h2database:h2') //{2}
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('com.h2database:h2')
+    //mustache
+    compile('org.springframework.boot:spring-boot-starter-mustache')
+    //static resource realtime apply
+    compile('org.springframework.boot:spring-boot-devtools')
+
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
