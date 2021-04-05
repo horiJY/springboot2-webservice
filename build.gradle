@@ -40,6 +40,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-mustache')
     //static resource realtime apply
     compile('org.springframework.boot:spring-boot-devtools')
+    //security
+    compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
