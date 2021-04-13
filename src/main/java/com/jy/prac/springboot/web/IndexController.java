@@ -1,5 +1,6 @@
 package com.jy.prac.springboot.web;
 
+import com.jy.prac.springboot.config.auth.LoginUser;
 import com.jy.prac.springboot.config.auth.dto.SessionUser;
 import com.jy.prac.springboot.service.PostsService;
 import com.jy.prac.springboot.web.dto.PostsResponseDto;
@@ -9,23 +10,18 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.servlet.http.HttpSession;
-
 
 @RequiredArgsConstructor
 @Controller // mustache controller
 public class IndexController {
     private final PostsService postsService;
-    private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
 
-        //로그인 후
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
-        if(user!=null){
-            model.addAttribute("webuserName", user.getName());
+        if(user != null){
+            model.addAttribute("webUserName", user.getName());
         }
 
         return "index";
