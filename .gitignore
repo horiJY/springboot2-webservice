@@ -2,7 +2,7 @@
 .gradle
 .idea
 build
-out
+out/*
 
 #properties
 application-oauth.properties
