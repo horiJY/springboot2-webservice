@@ -1,6 +1,6 @@
-package com.jy.prac.springboot.domain.user;
+package com.jy.prac.springboot.repository.user;
 
-import com.jy.prac.springboot.domain.BaseTimeEntity;
+import com.jy.prac.springboot.repository.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

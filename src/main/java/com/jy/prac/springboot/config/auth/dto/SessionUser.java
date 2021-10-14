@@ -1,6 +1,6 @@
 package com.jy.prac.springboot.config.auth.dto;
 
-import com.jy.prac.springboot.domain.user.User;
+import com.jy.prac.springboot.repository.user.User;
 import lombok.Getter;
 
 import java.io.Serializable;

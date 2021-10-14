@@ -1,7 +1,7 @@
-package com.jy.prac.springboot.web.domain.posts;
+package com.jy.prac.springboot.Controller.domain.posts;
 
-import com.jy.prac.springboot.domain.posts.Posts;
-import com.jy.prac.springboot.domain.posts.PostsRepository;
+import com.jy.prac.springboot.repository.posts.Posts;
+import com.jy.prac.springboot.repository.posts.PostsRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

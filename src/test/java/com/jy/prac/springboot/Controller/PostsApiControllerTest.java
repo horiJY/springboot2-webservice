@@ -1,10 +1,10 @@
-package com.jy.prac.springboot.web;
+package com.jy.prac.springboot.Controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.jy.prac.springboot.domain.posts.Posts;
-import com.jy.prac.springboot.domain.posts.PostsRepository;
-import com.jy.prac.springboot.web.dto.PostsSaveRequestDto;
-import com.jy.prac.springboot.web.dto.PostsUpdateRequestDto;
+import com.jy.prac.springboot.repository.posts.Posts;
+import com.jy.prac.springboot.repository.posts.PostsRepository;
+import com.jy.prac.springboot.dto.PostsSaveRequestDto;
+import com.jy.prac.springboot.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

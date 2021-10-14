@@ -1,10 +1,10 @@
-package com.jy.prac.springboot.web;
+package com.jy.prac.springboot.Controller;
 
 
 import com.jy.prac.springboot.service.PostsService;
-import com.jy.prac.springboot.web.dto.PostsResponseDto;
-import com.jy.prac.springboot.web.dto.PostsSaveRequestDto;
-import com.jy.prac.springboot.web.dto.PostsUpdateRequestDto;
+import com.jy.prac.springboot.dto.PostsResponseDto;
+import com.jy.prac.springboot.dto.PostsSaveRequestDto;
+import com.jy.prac.springboot.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

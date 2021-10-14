@@ -1,11 +1,11 @@
 package com.jy.prac.springboot.service;
 
-import com.jy.prac.springboot.domain.posts.Posts;
-import com.jy.prac.springboot.domain.posts.PostsRepository;
-import com.jy.prac.springboot.web.dto.PostsListResponseDto;
-import com.jy.prac.springboot.web.dto.PostsResponseDto;
-import com.jy.prac.springboot.web.dto.PostsSaveRequestDto;
-import com.jy.prac.springboot.web.dto.PostsUpdateRequestDto;
+import com.jy.prac.springboot.repository.posts.Posts;
+import com.jy.prac.springboot.repository.posts.PostsRepository;
+import com.jy.prac.springboot.dto.PostsListResponseDto;
+import com.jy.prac.springboot.dto.PostsResponseDto;
+import com.jy.prac.springboot.dto.PostsSaveRequestDto;
+import com.jy.prac.springboot.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

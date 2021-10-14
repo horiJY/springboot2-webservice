@@ -1,6 +1,6 @@
-package com.jy.prac.springboot.domain.posts;
+package com.jy.prac.springboot.repository.posts;
 
-import com.jy.prac.springboot.domain.BaseTimeEntity;
+import com.jy.prac.springboot.repository.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

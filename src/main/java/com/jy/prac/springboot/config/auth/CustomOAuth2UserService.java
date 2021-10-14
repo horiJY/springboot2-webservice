@@ -2,8 +2,8 @@ package com.jy.prac.springboot.config.auth;
 
 import com.jy.prac.springboot.config.auth.dto.OAuthAttributes;
 import com.jy.prac.springboot.config.auth.dto.SessionUser;
-import com.jy.prac.springboot.domain.user.User;
-import com.jy.prac.springboot.domain.user.UserRepository;
+import com.jy.prac.springboot.repository.user.User;
+import com.jy.prac.springboot.repository.user.UserRepository;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

@@ -1,9 +1,9 @@
-package com.jy.prac.springboot.web;
+package com.jy.prac.springboot.Controller;
 
 import com.jy.prac.springboot.config.auth.LoginUser;
 import com.jy.prac.springboot.config.auth.dto.SessionUser;
 import com.jy.prac.springboot.service.PostsService;
-import com.jy.prac.springboot.web.dto.PostsResponseDto;
+import com.jy.prac.springboot.dto.PostsResponseDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

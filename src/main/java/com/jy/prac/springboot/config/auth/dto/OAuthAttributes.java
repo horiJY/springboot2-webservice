@@ -1,7 +1,7 @@
 package com.jy.prac.springboot.config.auth.dto;
 
-import com.jy.prac.springboot.domain.user.Role;
-import com.jy.prac.springboot.domain.user.User;
+import com.jy.prac.springboot.repository.user.Role;
+import com.jy.prac.springboot.repository.user.User;
 import lombok.Builder;
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.web;
+package com.jy.prac.springboot.Controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.mock.env.MockEnvironment;

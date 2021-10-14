@@ -1,6 +1,6 @@
 package com.jy.prac.springboot.config.auth;
 
-import com.jy.prac.springboot.domain.user.Role;
+import com.jy.prac.springboot.repository.user.Role;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;

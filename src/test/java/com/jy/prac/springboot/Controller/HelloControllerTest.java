@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.web;
+package com.jy.prac.springboot.Controller;
 
 import com.jy.prac.springboot.config.auth.SecurityConfig;
 import org.junit.jupiter.api.Test;
