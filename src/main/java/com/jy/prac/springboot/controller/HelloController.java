@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.Controller;
+package com.jy.prac.springboot.controller;
 
 import com.jy.prac.springboot.dto.HelloResponseDto;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.Controller;
+package com.jy.prac.springboot.controller;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

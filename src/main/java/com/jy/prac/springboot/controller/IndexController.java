@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.Controller;
+package com.jy.prac.springboot.controller;
 
 import com.jy.prac.springboot.config.auth.LoginUser;
 import com.jy.prac.springboot.config.auth.dto.SessionUser;

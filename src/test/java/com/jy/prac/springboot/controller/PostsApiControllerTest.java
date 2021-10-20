@@ -1,4 +1,4 @@
-package com.jy.prac.springboot.Controller;
+package com.jy.prac.springboot.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.jy.prac.springboot.repository.posts.Posts;
